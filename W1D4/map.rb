@@ -1,39 +1,3 @@
-class Stack
-    def initialize
-      @stack_array = []
-    end
-
-    def push(el)
-      @stack_array.push(el)
-    end
-
-    def pop
-      @stack_array.pop
-    end
-
-    def peek
-      @stack_array[-1]
-    end
-  end
-
-class Queue
-    def initialize
-        @queue_array = []
-    end
-    
-    def enqueue(el)
-        @queue_array.unshift(el)
-    end
-    
-    def dequeue
-        @queue_array.pop
-    end
-
-    def peek
-        @queue_array[-1]
-    end
-end
-
 class Map
 
     def initialize
